@@ -1,4 +1,18 @@
+node -v 18     
+     
+     npx --yes @react-native-community/cli@latest init Sedentarios_App  --version "^0.79.0"
+
+     npm install --save react-native-windows@^0.79.0
+
+npx react-native init-windows --overwrite
+
+npx react-native autolink-windows vscode
+
+react-native run-android
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+
+
 
 # Getting Started
 
